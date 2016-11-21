@@ -1,11 +1,72 @@
 
-# Data Scientist
+# Data Scientist Challenge
 
 ## The Role
+___
 Here at IDXP, we are obsessed with data. So, we are looking for people that can extract useful insights from it.
+
 We collect location data from brick and mortar retail stores, and, by referencing these and sales data, we generate insights and analytics for our partners.
 
-As a Data Scientist, your role is to generate metrics, insights and reports for manufacturers and retail partners, using behaviour and sales data, in a quick but scalable manner.
+As a Data Scientist, your role is to generate metrics, insights and reports for manufacturers and retail partners, using behaviour and sales data, in a quick and scalable manner.
+
+### About the position
+___
+Righ now, we are looking for an experienced Data Scientist or Business Analyst to join our team. Our Data Science stack is composed by Python components, such as Pandas, Sklearn and Numpy. Most of our work is made on Jupyter Notebooks.
+
+In this position, you will be part of IDXP's core team, projecting experiments and building models using machine learning and data mining techniques, on location and sales data on some of the largest retail stores in the world. You will also be responsible for deploying improvements on our current code base, improving on our algorithms and methodologies. We are looking for professionals willing to work on Belo Horizonte, Brazil
+
+### About the company
+___
+IDXP is a brazilian company with it's HQ in California. It was awareded as "Global Entrepreneur of the year", by IBM and "Editor's Choice" in the world biggest Shopper Marketing fair. We were cited in some of the largest media outlets, like Forbes, Wall Street Journal, Venture Beat, Revista Exame, Folha de São Paulo and many others. The company developed a Big Data and Analytics platform that monitors in real time in-store shopper behaviour for retailers. The system helps retailers and manufacturers increares it's sales and measure the efficacy of promotions and other actions in and out of store. The company has already raised multiple funding rounds in Brazil and abroad.
+
+
+
+___
+#### Requirements
+If you fit most (not necessarily all) of these, let us know!
+
+* BSc on a highly technical degree, such as (but not limited to) Computer Science, Computer Engineering, Math and  Statistics
+* Experience with deploying data pipelines in production
+* Experience with stastical modeling
+* Knowledge in Machine Learning algorithms
+
+#### Nice-to-have
+It would be great if you have some of these.
+
+* MSc or PhD on a related area (Statistcs, Information Retrieval, Machine Learning, Data Mining...)
+* Academic experience (any published paper?)
+* Experience with distributed computing frameworks (specially Spark)
+* Experience with Python programming
+
+
+
+## The challenge
+
+Here at IDXP, we use the data described below in order to generate metrics and insights to costumers and partners. In this challenge, you will do the same. We provide you some data samples, located in the `data/` folder. The provided files are the following, all as described below.
+
+* `sales.csv`:  The sales data
+* `location.csv`:  The location data
+* `shelfs.json`:  Which SKUs are present in each area
+* `store.png`:  A high-res blueprint of the store, with the areas of interest shown in red.
+
+
+Every analysis that we perform on the data relies on, at least, the following three metrics, calculated for each item, each category and for each area of the store:
+
+* Exposition :  How many people were exposed to that item or area? Meaning, how many people were identified on the area of that item? 
+
+* Engagement : What is the average engagement power of an item or area? Meaning, how long does someone, on average, spend on a given area? It's defined as the average time spent by shoppers spent on each area.
+
+* Conversion : On average, how many people need to be exposed to an item so one purchase will be made? This can be defined as $\frac{\#\_items\_sold}{item\_exposition}$
+
+Every other basic metric and analysis that we use are crafted by combining these three base metrics and other variants on that.
+
+What we ask you to do is the following:
+
+1. First, we ask you to **Calculate** the three metrics above on the sample data given. The first two must be calculated for each item, each category and each area. The conversion, for each item and each category.
+
+2. Since the role of a Data Scientist also involves the creation of new and interesting metrics and insights, we also want you to **suggest** (and **calculate**, of course) other metrics and insights from this data. We want to see how well you can use your imagination and knowledge in order to find patterns and insights on the data. **We are looking forward to see what else can we do with the data provided. Please, surprise us!**
+
+Note that, while the location data is real, the sales data was randomly generated. In the location data, some inconsistency may occur, such as 0-second durations. It's up to you how to deal with these. As for the sales data, some baskets may not have much of a logic sense. But you can assume that the data is correct, and you do not need to worry with that.
 
 ### The Data
 
@@ -76,40 +137,14 @@ Finally, we also have a JSON file, called `shelfs.json`, where, for each store l
 ```
 {"101": ["11"], "109": ["14"], "99": ["3"], "111": ["3", "4"], "103": ["10"]...
 ```
-In that sample, the product with SKUs 3 and 4 are located on the area 111
-
-## The challenge
-
-Here at IDXP, we use the data described above in order to generate metrics and insights to costumers and partners. In this challenge, you will do the same. We provide you some data samples, located in the `data/` folder. The provided files are the following, all as described above.
-
-* `sales.csv`: The sales data
-* `location.csv` : The location data
-* `shelfs.json` : Which SKUs are present in each area
-* `store.png` : A high-res blueprint of the store, with the areas of interest shown in red.
-
-
-Every analysis that we perform on the data relies on, at least, the following three metrics, calculated for each item, each category and for each area of the store:
-
-* Exposition :  How many people were exposed to that item or area? Meaning, how many people were identified on the area of that item?
-* Engagement : What is the average engagement power of an item or area? Meaning, how long does someone, on average, spend on a given area?
-* Conversion : On average, how many people need to be exposed to an item so one purchase will be made? This can be defined as $\frac{\#\_items\_sold}{item\_exposition}$
-
-Every other metric and analysis that we use are crafted by combining these three base metrics and other small variants on that.
-
-What we ask you to do is the following:
-
-1. First, we ask you to **Calculate** the three metrics above on the sample data given. The first two must be calculated for each item, each category and each area. The conversion, for each item and each category.
-
-2. Since the role of a Data Scientist also involves the creation of new and interesting metrics and insights, we also want you to **suggest** (and **calculate**, of course) other metrics and insights from this data. We want to see how well you can use your imagination and knowledge in order to find patterns and insights on the data. **We are looking forward to see what else can we do with the data provided. Please, surprise us!**
-
-Note that, while the location data is real, the sales data is not. So, in the location data, some inconsistency may occur, such as 0-second durations. You do not need to worry about that. As for the sales data, some baskets may not have much of a logic sense. But, also, you can assume that the data is correct, and you do not need to worry with that.
+In that sample, the area 111 contains the products with SKUs 3 and 4.
 
 ### The report
 
 You are NOT required to complete this using any specific tool or language. Use whathever you are more confortable with.
 You are required to write a report, explaining what, how and why you did what you did, specifically, why do you think the extra metrics you generated are usefull. As stated before, you do not need to use any specific tool, but, for the report, we would love to see it using the Jupyter Notebook. If you are not familiar with it, you can check http://jupyter.org/ in order to install and give your first steps with it. Again, it's not required to use it, but it would be nice to.
 
-Finally, your code should be avaiable on a github repository, if you can make it private. If not, you can use bitbucket.
+Finally, your code should be avaiable on a **private** github repository. If you can't make it private, you can use bitbucket.
 
 ### The delivery proccess
 
