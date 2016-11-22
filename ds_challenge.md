@@ -49,7 +49,7 @@ The data has the following columns:
 * `TIMESTAMP`: The moment that someone entered that `AREA`
 * `DURATION` : How many seconds that person remained on that `AREA`
 
-Each row on the data can be interpreted as a single event. While there may be some inconsistence in the data, for this challenge, you may assume that the data is correct.
+Each row on the data can be interpreted as a single event. While there may be some inconsistency in the data, for this challenge, you may assume that the data is correct.
 
 Below, we show the blueprint of one store, with the areas that we are interested shown in red. The green and blue squares are cameras that are used to track users in store. Only the blue ones were used on this data.
 
@@ -100,13 +100,13 @@ In that sample, the area 111 contains the products with SKUs 3 and 4.
 
 ### The report
 
-You are NOT required to complete this using any specific tool or language. Use whathever you are more confortable with.
-You are required to write a report, explaining what, how and why you did what you did, specifically, why do you think the extra metrics you generated are usefull. As stated before, you do not need to use any specific tool, but, for the report, we would love to see it using the Jupyter Notebook. If you are not familiar with it, you can check http://jupyter.org/ in order to install and give your first steps with it. Again, it's not required to use it, but it would be nice to.
+You are NOT required to complete this using any specific tool or language. Use whatever you are more comfortable with.
+You are required to write a report, explaining what, how and why you did what you did, specifically, why do you think the extra metrics you generated are useful. As stated before, you do not need to use any specific tool, but, for the report, we would love to see it using the Jupyter Notebook. If you are not familiar with it, you can check http://jupyter.org/ in order to install and give your first steps with it. Again, it's not required to use it, but it would be nice to.
 
-Finally, your code should be avaiable on a **private** github repository. If you can't make it private, you can use bitbucket.
+Finally, your code should be available on a **private** github repository. If you can't make it private, you can use bitbucket.
 
-### The delivery proccess
+### The delivery procccess
 
 You can send your reports and link to repository to the email jobs-dev@idxpanalytics.com. 
 
-We believe that one week is enough time to complete this challenge with interesting results. But, if you think you will need more time, let us know as soon as possible. If you need any further clarification, also let us know, so we can help you through the proccess.
+We believe that one week is enough time to complete this challenge with interesting results. But, if you think you will need more time, let us know as soon as possible. If you need any further clarification, also let us know, so we can help you through the process.
