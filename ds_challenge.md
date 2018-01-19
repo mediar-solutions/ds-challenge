@@ -1,7 +1,7 @@
 
 ## The challenge
 
-Here at IDXP, we use the data described below in order to generate metrics and insights to costumers and partners. In this challenge, you will do the same. We provide you some data samples, located in the `data/` folder. The provided files are the following, all as described below.
+Here at Mediar, we use the data described below in order to generate metrics and insights to costumers and partners. In this challenge, you will do the same. We provide you some data samples, located in the `data/` folder. The provided files are the following, all as described below.
 
 * `sales.csv`:  The sales data
 * `location.csv`:  The location data
