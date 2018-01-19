@@ -1,5 +1,5 @@
 
-# Senior Data Scientist at Mediar Solutions
+# Data Scientist at Mediar Solutions
 
 ## The Role
 ___
