@@ -77,8 +77,8 @@ The location data is more complete, and has the following columns:
 * `upc`: An unique product identifier, unique to the product (AKA the barcode of the product)
 * `product_name`: The description of the product, given by the retailer
 * `manufacturer_id`: the ID of the manufacturer, given by the retailer
-* `category_[1-5]_id: IDs of the category and every subdivision of the category, given by the retailer
-* `category_[1-5]_name: Names of the category and every subdivision of the category, given by the category, given by the category
+* `category_[1-5]_id`: IDs of the category and every subdivision of the category, given by the retailer
+* `category_[1-5]_name`: Names of the category and every subdivision of the category, given by the category, given by the category
 * `value`: Price of one unity of the item
 * `quantity`: How many items were sold
 * `discount`: How much were given as discount to that item (if any)
