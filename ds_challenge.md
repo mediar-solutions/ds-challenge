@@ -82,7 +82,7 @@ The location data is more complete, and has the following columns:
 * `value`: Price of one unity of the item
 * `quantity`: How many items were sold
 * `discount`: How much were given as discount to that item (if any)
-* `total_value`: Total value paid for that item (Calculated as $(value*quantity)-discount$
+* `total_value`: Total value paid for that item (Calculated as (value*quantity)-discount
 
 
 Finally, we also have a CSV file, called `mapping.csv`, formatted as such:
