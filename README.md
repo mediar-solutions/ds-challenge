@@ -1,5 +1,6 @@
-
 # Data Scientist at Mediar Solutions
+
+# PLEASE, DO NOT ACT ON THE CHALLENGE BEFORE TALKING TO US.
 
 ## The Role
 ___
