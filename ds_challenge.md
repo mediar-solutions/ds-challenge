@@ -15,7 +15,7 @@ Every analysis that we perform on the data relies on, at least, the following th
 
 * Engagement : What is the average engagement power of a given category or area? Meaning, how long does someone, on average, spend on a given area? It's defined as the average time spent by shoppers spent on each area.
 
-* Conversion : On average, how many people need to be exposed to an item so one purchase will be made? This can be defined as $\frac{\#\_baskets\_sold}{item\_exposition}$ (We define one basket as one shopper that purchased that item)
+* Conversion : On average, how many people need to be exposed to an item so one purchase will be made? This can be defined as #_baskets\_sold/exposure (We define one basket as one shopper that purchased that item)
 
 Every other basic metric and analysis that we use are crafted by combining these three base metrics and other variants on that.
 
