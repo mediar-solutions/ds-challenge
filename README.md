@@ -1,6 +1,7 @@
 # Data Scientist at Mediar Solutions
 
-# PLEASE, DO NOT ACT ON THE CHALLENGE BEFORE TALKING TO US.
+**Attention**
+PLEASE, do not act on the challenge before sending us an email with your Resume. We will talk over the task during our fist talk, when we plan on explaining better what we expect from it, and what we are expecting from your work. 
 
 ## The Role
 ___
