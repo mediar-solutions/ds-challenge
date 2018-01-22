@@ -50,4 +50,3 @@ Some perks that you will find here:
 * Beer in the fridge
 * Cats in the office
 
-# PLEASE, DO NOT ACT ON THE CHALLENGE BEFORE TALKING TO US.
