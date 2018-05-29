@@ -38,7 +38,6 @@ If you fit most (but not necessarily all) of these, let us know!
 #### Nice-to-have
 It would be great if you have any of these.
 
-* MSc or PhD on a related area (Statistics, Information Retrieval, Machine Learning, Data Mining...)
 * Experience with statistical modeling
 * Knowledge in client-side frameworks and libraries such as React and AngularJs
 * REST API (Python Flask) - Complete understanding of the REST architectural style
