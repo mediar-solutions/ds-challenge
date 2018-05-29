@@ -30,6 +30,9 @@ If you fit most (but not necessarily all) of these, let us know!
 * Experience with Python programming
 * Some experience (or knowledge) on PyData stack (Pandas, SkLearn, Numpy, etc)
 * Knowledge in Machine Learning algorithms
+* Database modelling experience (SQL)
+* Experience with Front-end development using HTML, CSS and JavaScript
+* Strong knowledge of Data visualization tools or JavaScript library for manipulating documents based on data (D3.js) 
 * English fluency
 
 #### Nice-to-have
@@ -37,13 +40,12 @@ It would be great if you have any of these.
 
 * MSc or PhD on a related area (Statistics, Information Retrieval, Machine Learning, Data Mining...)
 * Experience with statistical modeling
-* Experience with deploying big data pipelines in production
-* Academic experience (any published paper?)
-* Experience with distributed computing frameworks (specially Spark)
-* Database modelling experience (SQL and NoSQL)
+* Knowledge in client-side frameworks and libraries such as React and AngularJs
+* REST API (Python Flask) - Complete understanding of the REST architectural style
+* Experience with Google Cloud platform core infrastructure (App Engine, Storage, BigQuery e Cloud Functions)
 
 #### Hiring process:
-If you wish to apply for this position, let us know by sending an email with your resume to `arthur[at]mediarsolutions.com`, so we can talk. Our process consists of the following steps:
+If you wish to apply for this position, let us know by sending an email with your resume to `carlos[at]mediarsolutions.com`, so we can talk. Our process consists of the following steps:
 
 1. **Resume Analysis**: After sending us your resume, we will try to get back to you ASAP.
 
@@ -57,7 +59,7 @@ If you wish to apply for this position, let us know by sending an email with you
 
 6. **Proposal**: If we choose to move forward, we will send you a proposal for the position.
 
-For this specific position, we are planning on completing the entire process in up to two weeks, and we expect that you will be able to begin working with us in the first half of Februray/2018.
+For this specific position, we are planning on completing the entire process in up to two weeks.
 
 ### About the company
 ___
@@ -68,9 +70,6 @@ Some perks that you will find here:
 * Relaxed environment
 * Competitive pay
 * Stock Options
-* Beer in the fridge
-* Table Tennis
-* Cats in the office
 
 # The Challenge
 ---
